@@ -21,5 +21,8 @@ public class WorksWithHerokuServlet extends HttpServlet {
         } catch (Exception e) {
             //TODO
         }
+        Integer j = null;
+        j++;
+        int k = 0;
     }
 }
