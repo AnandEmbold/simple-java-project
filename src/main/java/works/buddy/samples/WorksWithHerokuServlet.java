@@ -15,5 +15,11 @@ public class WorksWithHerokuServlet extends HttpServlet {
         PrintWriter writer = response.getWriter();
         writer.print("Buddy Works with Heroku");
         writer.close();
+        try {
+            int i = 0;
+            writer.print(i);
+        } catch (Exception e) {
+            //TODO
+        }
     }
 }
