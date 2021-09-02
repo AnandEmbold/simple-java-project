@@ -24,6 +24,6 @@ sources:
 languages: 'JAVA'
 
 modules:
-  - name: gamma_java
+  - name: embold_java
     enabled: true
     
