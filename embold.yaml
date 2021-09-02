@@ -25,5 +25,5 @@ languages: 'JAVA'
 
 modules:
   - name: embold_java
-    enabled: true
+    enabled: false
     
