@@ -21,7 +21,7 @@ sources:
     - '.git'
 
 
-languages: 'JAVASCRIPT,JAVA'
+languages: 'JAVA'
 
 modules:
   - name: pmd
