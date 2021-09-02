@@ -25,12 +25,14 @@ languages: 'JAVA'
 
 modules:
   - name: pmd
-    enabled: true
+    enabled: false
     config:
       - name: ruleSets
         value: 'rulesets/java/strictexception.xml,rulesets/java/basic.xml,rulesets/java/design.xml,category/java/security.xml'
       - name: javaVersion
         value: '1.8'
+  - name: sonar
+    enabled: true
   - name: spotbugs
     enabled: true
     config:
