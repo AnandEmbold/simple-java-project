@@ -20,7 +20,7 @@ sources:
     - '.git'
 
 
-languages: 'CPP,SQL'
+languages: 'CPP,JAVASCRIPT'
 
 modules:
   - name: pmd
